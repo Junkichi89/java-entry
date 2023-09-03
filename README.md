@@ -34,3 +34,22 @@ Scannerクラスを使えるようにするため、
 import java.util.Scanner
 
 という宣言を行う。
+
+## メソッドの定義
+
+①public ②static ③void main(Strign[] args)
+
+①について
+public 他のクラスからアクセス可能
+protected 同一パッケージ内・継承クラス
+なし　　　同一パッケージのみ
+private       同じクラス内のみ
+
+②について
+abstract 抽象クラス・メソッド
+static  クラスから直接呼び出せる（インスタンスから呼ばない）
+final  変更ができない
+
+③について
+処理結果を返す場合　→　返り値の型を定義
+値を返さない　→『void』
